@@ -1,4 +1,3 @@
-// !!!!!!!!!!!!!不要な所は消す！！！！！！！！！！！！！！！！！
 // 現在地取得処理
 function initMap() {
   // Geolocation APIに対応している
@@ -55,3 +54,19 @@ window.onload = function(){
 // ページ読み込み時に実行したい処理
   initMap();
 }
+// Jquery______________________
+
+// アイコンをタップ時
+$(".fa-search").click(function(){
+  // #modalと#smodal-wrapperを表示
+  $("#modal-wrapper").fadeIn();
+  $("#modal-fa-search").fadeIn();
+  console.log($(this));
+});
+
+
+// #modal-wrapperタップ時
+$("#modal-wrapper").click(function(){
+  $("#modal-wrapper").fadeOut();
+  $("#modal-fa-search").fadeOut();
+})

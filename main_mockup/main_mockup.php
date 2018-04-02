@@ -4,8 +4,8 @@
 	<title>mirutsui</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width" >
-	<!-- JS -->
-	<script type="text/javascript" src="main_mockup.js"></script>
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="main_mockup.css">
 	<!-- JQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<!-- FontAwesome -->
@@ -15,8 +15,28 @@
 </head>
 <body>
 	<!-- 地図の表示 -->
-	<div id="map" style="width:100vw; height:100vh;"></div>
+	<div id="map" style="width:100vw; height:95vh;"></div>
 
+	<!-- モーダル 3種-->
+	<!-- クリックイベントを発生させないために敢えて、wrapperから外した -->
+	<div id=modal-wrapper></div>
+
+	<!-- modal-fa-search -->
+	<div id="modal-fa-search">
+		<input  id= "search-text" type="text" name="" placeholder="  ワードを入力してください">
+		<i class="fas fa-search">
+	</div>
+
+	<!-- bottom_menu -->
+	<div class="container">
+	  <div class="row" id="menu" style="width:100vw; height:5vh;">
+	    <div class="col-xs-4"><i class="fas icon fa-search fa-2x"></i></div>
+	    <div class="col-xs-4"><i class="fas icon fa-sliders-h fa-2x"></i></div>
+	    <div class="col-xs-4"><i class="fas icon fa-cog fa-2x"></i></div>
+	  </div>
+	</div>
+<!-- JS -->
+<script type="text/javascript" src="main_mockup.js"></script>
 <!-- Google Map -->
 <script async defer
 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxNXrYg4kLhq6v3iGy2PBewPSU1EJejys&callback=initMap">
