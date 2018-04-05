@@ -68,7 +68,7 @@ $(".fa-search").click(function(){
   // #modalと#smodal-wrapperを表示
   $("#modal-wrapper").fadeIn();
   $("#modal-fa-search").fadeIn();
-});
+})
 
 // フィルターアイコンのタップ時
 $(".fa-sliders-h").click(function(){

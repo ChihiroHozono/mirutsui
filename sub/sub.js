@@ -1,3 +1,3 @@
-$('.fliper-btn').click(function(){
-    $('.flip').find('.card').toggleClass('flipped');
-});
+$("#left").click(function(){
+	$("#signin").fadeIn();
+})
