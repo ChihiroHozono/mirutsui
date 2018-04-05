@@ -5,8 +5,6 @@
 }
 
 
-
-
 /*モーダル*/
 #modal-wrapper{
 	position: fixed;
@@ -19,7 +17,7 @@
 	display: none;
 }
 
-
+/*検索モーダル*/
 #modal-fa-search{
 	position:fixed;
 	top:30%;
@@ -39,4 +37,28 @@
 	border-radius: 3px;
 	/*適用しないと影ができる*/
 	border:none;
+}
+
+#search{
+	position:absolute;
+	top:80%;
+	left:45%;
+	margin:0 0;
+}
+
+/*フィルターモーダル*/
+#modal-filter{
+	position:fixed;
+	top:30%;
+	width:100%;
+	height:40%;
+	background-color: #e6ecf0;
+	z-index: 20;
+	display:none;
+}
+
+.filter{
+	position: fixed;
+	top:45%;
+	left:20%;
 }

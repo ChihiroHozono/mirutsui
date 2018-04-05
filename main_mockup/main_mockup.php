@@ -20,12 +20,18 @@
 	<!-- モーダル 3種-->
 	<!-- クリックイベントを発生させないために敢えて、wrapperから外した -->
 	<div id=modal-wrapper></div>
-
-	<!-- modal-fa-search -->
-	<div id="modal-fa-search">
-		<input  id= "search-text" type="text" name="" placeholder="  ワードを入力してください">
-		<i class="fas fa-search">
-	</div>
+		<!-- 検索モーダル -->
+		<div id="modal-fa-search">
+			<input  id= "search-text" type="text" name="" placeholder="  ワードを入力してください">
+			<i id="search" class="fas icon fa-search fa-2x"></i>
+		</div>
+		<!-- フィルターモーダル -->
+		<div id=modal-filter>
+			<div class=filter>
+				<h4><input type="checkbox" name="">ご飯</h4>
+				<h4><input type="checkbox" name="">スポット</h4>
+			</div>
+		</div>
 
 	<!-- bottom_menu -->
 	<div class="container">

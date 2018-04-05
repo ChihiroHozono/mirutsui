@@ -54,19 +54,29 @@ window.onload = function(){
 // ページ読み込み時に実行したい処理
   initMap();
 }
+
+// モーダルを閉じる関数
+function close(){
+  $("#modal-wrapper").fadeOut();
+  $("#modal-fa-search").fadeOut();
+  $("#modal-filter").fadeOut();
+}
 // Jquery______________________
 
-// アイコンをタップ時
+// 検索アイコンをタップ時
 $(".fa-search").click(function(){
   // #modalと#smodal-wrapperを表示
   $("#modal-wrapper").fadeIn();
   $("#modal-fa-search").fadeIn();
-  console.log($(this));
 });
 
+// フィルターアイコンのタップ時
+$(".fa-sliders-h").click(function(){
+  $("#modal-wrapper").fadeIn();
+  $("#modal-filter").fadeIn();
+})
 
 // #modal-wrapperタップ時
 $("#modal-wrapper").click(function(){
-  $("#modal-wrapper").fadeOut();
-  $("#modal-fa-search").fadeOut();
+  close();
 })
