@@ -20,8 +20,14 @@
 	<!-- モーダル 3種-->
 	<!-- クリックイベントを発生させないために敢えて、wrapperから外した -->
 	<div id=modal-wrapper></div>
+		<!-- 未ログインモーダル -->
+		<div id=no-login-modal>
+			<br><br>
+			<h3>ログインすると検索機能が使えるようになります</h3>
+			<a href="../sub/sub.php" class=login-link>ログイン</a>
+		</div>
 		<!-- 検索モーダル -->
-		<div id="modal-fa-search">
+		<div id=modal-fa-search>
 			<input  id= "search-text" type="text" name="" placeholder="  ワードを入力してください">
 			<i id="search" class="fas icon fa-search fa-2x"></i>
 		</div>
@@ -36,7 +42,7 @@
 	<!-- bottom_menu -->
 	<div class="container">
 	  <div class="row" id="menu" style="width:100vw; height:5vh;">
-	    <div class="col-xs-4"><i class="fas icon fa-search fa-2x"></i></div>
+	    <div class="col-xs-4"><i class="fas icon fa-search fa-2x no-login"></i></div>
 	    <div class="col-xs-4"><i class="fas icon fa-sliders-h fa-2x"></i></div>
 	    <div class="col-xs-4"><i class="fas icon fa-cog fa-2x"></i></div>
 	  </div>

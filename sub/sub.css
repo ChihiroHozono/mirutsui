@@ -7,11 +7,10 @@ body{
 	width:100vw;
 	height:100vh;
 }
-
+/*下線の打ち消し*/
 a{
 	text-decoration:none;
 }
-
 a:hover{
 	text-decoration: none;
 }
@@ -40,15 +39,12 @@ a:hover{
 	top:15%;
 	width:100%;
 	height:100%;
-	z-index: 20;
 	display:none;
 
 }
-
-
 form{
 	padding: 20px;
-	    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 15px 0 rgba(0,0,0,0.12) !important;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 15px 0 rgba(0,0,0,0.12) !important;
 }
 h4{
     text-align: center;
@@ -77,42 +73,43 @@ i{
 	margin-right: 10px;
 }
 
-
-
-
 .flip {
-  -webkit-perspective: 800;
-perspective: 800;
-
     position: relative;
+    z-index: 100;
 }
 .flip .card.flipped {
   -webkit-transform: rotatey(-180deg);
     transform: rotatey(-180deg);
 }
-.flip .card {
 
-  height: 100%;
-  -webkit-transform-style: preserve-3d;
-  -webkit-transition: 0.5s;
-    transform-style: preserve-3d;
-    transition: 0.5s;
-}
-.flip .card .face {
-
-  -webkit-backface-visibility: hidden ;
-    backface-visibility: hidden ;
-  z-index: 2;
-   
-}
 .flip .card .front {
   position: absolute;
    width: 100%;
   z-index: 1;
+}
+.inner{
+	margin:0px !important;
+}
 
+
+/*サインアップモーダル*/
+#signup{
+	position:fixed;
+	top:15%;
+	width:100%;
+	height:100%;
+	display:none;
 }
-.flip .card .back {
-  -webkit-transform: rotatey(-180deg);
-    transform: rotatey(-180deg);
+
+
+
+/*モーダル背景*/
+.modal-wrapper{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(1, 0, 0, 0.6);
+	z-index: 1;
 }
-  .inner{margin:0px !important;}

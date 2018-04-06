@@ -60,14 +60,21 @@ function close(){
   $("#modal-wrapper").fadeOut();
   $("#modal-fa-search").fadeOut();
   $("#modal-filter").fadeOut();
+  $('#no-login-modal').fadeOut();
 }
 // Jquery______________________
 
 // 検索アイコンをタップ時
 $(".fa-search").click(function(){
-  // #modalと#smodal-wrapperを表示
+  // modalwrapper
   $("#modal-wrapper").fadeIn();
+  // 検索アイコンがno-loginを持っていた時の処理
+  if($(this).hasClass('no-login')){
+    $('#no-login-modal').fadeIn();
+  // 普通の処理
+  }else{
   $("#modal-fa-search").fadeIn();
+  }
 })
 
 // フィルターアイコンのタップ時

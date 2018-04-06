@@ -19,13 +19,15 @@
 	<!-- bottom_menu -->
 	<div class="container">
 		<div class= button-wrapper>
-			<div id ="left" class="col-xs-6"><a class=buttom>サインイン</a></div>
-			<div class="col-xs-6"><a class=buttom>新規登録</a></div>
+			<div id="left" class="col-xs-6"><a class=buttom>サインイン</a></div>
+			<div id="right" class="col-xs-6"><a class=buttom>新規登録</a></div>
 		</div>
 	</div>
 
 	<!-- サインインモーダル -->
 	<div id="signin">
+		<!-- モーダルの背景 -->
+		<div class=modal-wrapper></div>
     <div class="container">
       <div class="row">
         <div class="col-md-4"></div>
@@ -35,7 +37,7 @@
             <div class="panel panel-default">
               <form class="form-horizontal">
           			<br>
-          			<h1 class="text-center">Log In</h1>
+          			<h1 class="text-center">Login</h1>
           			<br>
           			<input class="form-control" placeholder="Username"/>
           			<input class="form-control" placeholder="Password"/>
@@ -54,6 +56,38 @@
     	<div class="col-md-4"></div>
    	</div>
    </div>
+	</div>
+
+
+	<!-- サインアップモーダル -->
+	<div id="signup">
+		<div class=modal-wrapper></div>
+		<div class="container">
+	    <div class="row">
+	      <div class="col-md-4"></div>
+	      <div class="col-md-4">
+					<div class="flip">
+	        <div class="card">
+	         <div class="face back">
+	          <div class="panel panel-default">
+	            <form class="form-horizontal">
+	              <br>
+	              <h1 class="text-center">Signup</h1>
+	              <br>
+	              <input class="form-control" placeholder="Fullname"/>
+	              <input class="form-control" placeholder="Age"/>
+	              <input class="form-control" placeholder="Email"/>
+	              <input class="form-control" placeholder="Password"/>
+	              <button class="btn btn-primary btn-block">SIGN UP</button>
+	            </form>
+	          </div>
+	         </div>
+	        </div>
+	      	</div>
+				</div>
+	      <div class="col-md-4"></div>
+			</div>
+		</div>
 	</div>
 <!-- bootstrap JS-->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
