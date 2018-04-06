@@ -43,6 +43,16 @@ a:hover{
 }
 
 
+.login-text{
+	position: absolute;
+	top:35%;
+	width:100%;
+	display: inline-block;
+	/*ブロック要素は中央寄せできない*/
+	text-align: center;
+}
+
+
 /*モーダル*/
 #modal-wrapper{
 	position: fixed;

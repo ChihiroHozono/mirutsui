@@ -23,7 +23,7 @@
 		<!-- 未ログインモーダル -->
 		<div id=no-login-modal>
 			<br><br>
-			<h3>ログインすると検索機能が使えるようになります</h3>
+			<h4 class=login-text>ログインすると検索機能が使えます</h4>
 			<a href="../sub/sub.php" class=login-link>ログイン</a>
 		</div>
 		<!-- 検索モーダル -->
