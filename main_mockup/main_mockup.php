@@ -37,7 +37,7 @@
 			<div class=filter>
 				<h4><input type="radio" name="selector">ご飯</h4>
 				<h4><input type="radio" name="selector">スポット</h4>
-				<a>絞り込み</a>
+				<a class="filter-button">絞り込み</a>
 			</div>
 		</div>
 

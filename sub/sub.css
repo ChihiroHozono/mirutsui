@@ -15,6 +15,7 @@ a:hover{
 	text-decoration: none;
 }
 
+
 /*ボタン関連*/
 .button-wrapper{
 	position: relative;
@@ -30,7 +31,6 @@ a:hover{
 	font-size: 23px;
 	width:100%;
 	text-align: center;
-
 }
 
 /*サインインモーダル*/
