@@ -24,7 +24,7 @@
 		</div>
 	</div>
 
-	<!-- サインインモーダル -->
+	<!-- ログインモーダル -->
 	<div id="signin">
 		<!-- モーダルの背景 -->
 		<div class=modal-wrapper></div>

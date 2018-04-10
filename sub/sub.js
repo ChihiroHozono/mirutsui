@@ -1,3 +1,8 @@
+// テンプレ
+// $('').click(function(){
+	
+// })
+
 // サインインボタンを押した時の動作
 $("#left").click(function(){
 	$("#signin").fadeIn();
@@ -12,4 +17,5 @@ $(".modal-wrapper").click(function(){
 	$("#signin").fadeOut();
 	$("#signup").fadeOut();
 })
+
 

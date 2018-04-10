@@ -4,14 +4,15 @@
 	<title>mirutsui</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width" >
-	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="main_mockup.css">
+
 	<!-- JQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<!-- FontAwesome -->
 	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 	<!-- bootstrap CSS-->
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="main_mockup.css">
 </head>
 <body>
 	<!-- 地図の表示 -->
@@ -34,8 +35,9 @@
 		<!-- フィルターモーダル -->
 		<div id=modal-filter>
 			<div class=filter>
-				<h4><input type="checkbox" name="">ご飯</h4>
-				<h4><input type="checkbox" name="">スポット</h4>
+				<h4><input type="radio" name="selector">ご飯</h4>
+				<h4><input type="radio" name="selector">スポット</h4>
+				<a>絞り込み</a>
 			</div>
 		</div>
 
