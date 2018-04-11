@@ -60,6 +60,7 @@ function close(){
   $("#modal-wrapper").fadeOut();
   $("#modal-fa-search").fadeOut();
   $("#modal-filter").fadeOut();
+  $("#setting-modal").fadeOut();
   $('#no-login-modal').fadeOut();
 }
 // Jquery______________________
@@ -83,7 +84,14 @@ $(".fa-sliders-h").click(function(){
   $("#modal-filter").fadeIn();
 })
 
+// setting-modalタップ時
+$(".fa-cog").click(function(){
+  $("#setting-modal").fadeIn();
+  $("#modal-wrapper").fadeIn();
+})
+
 // #modal-wrapperタップ時
 $("#modal-wrapper").click(function(){
   close();
 })
+
