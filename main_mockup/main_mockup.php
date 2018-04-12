@@ -4,7 +4,6 @@
 	<title>mirutsui</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width" >
-
 	<!-- JQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<!-- FontAwesome -->
@@ -62,6 +61,7 @@
 	</div>
 <!-- JS -->
 <script type="text/javascript" src="main_mockup.js"></script>
+<script type="text/javascript" src="map.js"></script>
 <!-- Google Map -->
 <script async defer
 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxNXrYg4kLhq6v3iGy2PBewPSU1EJejys&callback=initMap">
