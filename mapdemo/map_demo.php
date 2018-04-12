@@ -26,7 +26,7 @@
         // Create a map object and specify the DOM element for display.
         var map = new google.maps.Map(document.getElementById('map'), {
           center: myLatLng,
-          zoom: 4
+          zoom: 15
         });
 
         // Create a marker and set its position.
@@ -37,7 +37,7 @@
         });
         var maker = new google.maps.Marker({
           map: map,
-          position:{lat:35.673264,lng: 139.760668},
+          position:{lat:10.328556,lng: 123.903079},
           // ピンのテキストの変更、マーカーは変更できるのでおそらく消せる
           label:{
             text:"ここの焼肉美味しかった！！",
