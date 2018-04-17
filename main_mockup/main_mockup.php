@@ -45,7 +45,6 @@
 			<h4>・表示範囲の設定</h4>
 			<h3><input type="text" name="">m</h3>
 			<br>
-			<br>
 			<h4>・ツイートの数の変更</h4>
 			<a class="decrese-button">減らす</a>
 			<a class="increse-button">増やす</a>
