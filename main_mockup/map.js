@@ -99,7 +99,7 @@
           // マーカーを隠す
           visible:false,
         });
-        
+
         // 吹き出しのの表示
         var myInfoWindow2 = new google.maps.InfoWindow({
           // 吹き出しに出す文
@@ -107,9 +107,25 @@
           });
 
 
+        var marker3 = new google.maps.Marker({
+          map: map,
+          position:{lat:10.327156,lng: 123.903079},
+          // マーカーを隠す
+          visible:false,
+        });
+
+        // 吹き出しのの表示
+        var myInfoWindow3 = new google.maps.InfoWindow({
+          // 吹き出しに出す文
+          content: "冷房が効いてて寒い"
+          });
+
+
         // 吹き出しを開く
         myInfoWindow1.open(map, marker1);
         myInfoWindow2.open(map, marker2);
+        myInfoWindow3.open(map, marker3);
+
 
 
 
