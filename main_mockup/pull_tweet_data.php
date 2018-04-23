@@ -5,25 +5,21 @@
 	$dbh = new PDO($dns,$user,$password);
 	$dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	$dbh->query('SET NAMES utf8');
-	$sql = 'SELECT * FROM `tweet_data` WHERE ``';
+	$sql = 'SELECT `text`, FROM `tweet_data';
 	$stmt = $dbh->prepare($sql);
 	$stmt->execute();
 
-	$tweets = array();
 
+	$tweets = array();
 	while(1){
 		$rec = $stmt->fetch(PDO::FETCH_ASSOC);
 		if($rec == false){
 			break;
 		}
-		echo $rec['tweet_id'];
+		echo $rec['text'].'<br>';
+
 
 	}
-
-
-
-
-
 
 
 
