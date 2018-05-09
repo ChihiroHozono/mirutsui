@@ -9,47 +9,7 @@ a:hover{
 /*メニューの中央寄せ*/
 .icon{
 	margin:0 35%;
-	color:#8b8b8b;
-}
-
-/*ログインしていない時の検索アイコン*/
-.no-login{
-	color:#dcdcdc;
-}
-
-/*未ログインモーダル*/
-#no-login-modal{
-	display:none;
-	position:fixed;
-	top:30%;
-	width:100%;
-	height:40%;
-	background-color: #e6ecf0;
-	z-index: 20;
-	display:none;
-}
-
-.login-link{
-	position:absolute;
-	top:70%;
-	display:inline-block;
-	color:white;
-	background-color:#337ab7;
-	padding: 5px 5px;
-	border-radius: 3px;
-	font-size: 23px;
-	width:100%;
-	text-align: center;
-}
-
-
-.login-text{
-	position: absolute;
-	top:35%;
-	width:100%;
-	display: inline-block;
-	/*ブロック要素は中央寄せできない*/
-	text-align: center;
+	color:#42a972;
 }
 
 
@@ -94,6 +54,7 @@ a:hover{
 	margin:0 0;
 }
 
+
 /*フィルターモーダル*/
 #modal-filter{
 	position:fixed;
@@ -136,9 +97,47 @@ a:hover{
 	display:none;
 }
 
-.decrese-button{
+.tweet-show-text{
 	position: fixed;
-	top:60%;
+	top:40%;
+	left:18%;
+	padding: 5px 5px;
+	border-radius: 3px;
+	font-size: 20px;
+}
+
+.on-button{
+	position: fixed;
+	top:50%;
+	left:18%;
+	display:inline-block;
+	color:white;
+	background-color:#337ab7;
+	padding: 5px 5px;
+	border-radius: 3px;
+	font-size: 20px;
+	width:30%;
+	text-align: center;
+}
+
+
+.off-button{
+	position: fixed;
+	top:50%;
+	left:55%;
+	display:inline-block;
+	color:white;
+	background-color:#337ab7;
+	padding: 5px 5px;
+	border-radius: 3px;
+	font-size: 20px;
+	width:30%;
+	text-align: center;
+}
+
+/*.decrese-button{
+	position: fixed;
+	top:55%;
 	left:18%;
 	display:inline-block;
 	color:white;
@@ -153,17 +152,17 @@ a:hover{
 
 .increse-button{
 	position: fixed;
-	top:60%;
+	top:55%;
 	left:55%;
 	display:inline-block;
 	color:white;
 	background-color:#337ab7;
 	padding: 5px 5px;
 	border-radius: 3px;
-	font-size: 18px;
+	font-size: 20px;
 	width:30%;
 	text-align: center;
-}
+}*/
 
 #setting-modal h4,#setting-modal h3{
 	margin-left: 10%;
